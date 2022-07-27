@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ecommerce-design/static/css/main.136162eb.css",
+    "main.js": "/ecommerce-design/static/js/main.57c0f113.js",
+    "static/media/bg-1.svg": "/ecommerce-design/static/media/bg-1.878617312fc3229e6a4014d258b52207.svg",
+    "static/media/bg-3.svg": "/ecommerce-design/static/media/bg-3.3dae37c403241b65581170ad52bd25c2.svg",
+    "static/media/bg.svg": "/ecommerce-design/static/media/bg.97c18da30de97085a6a02a565ad1fae1.svg",
+    "static/media/bg-2.svg": "/ecommerce-design/static/media/bg-2.496ad4b80a76847dc1600e12343c3514.svg",
+    "index.html": "/ecommerce-design/index.html",
+    "static/media/Path (Stroke).svg": "/ecommerce-design/static/media/Path (Stroke).e26a538b8a08b7e50f4527d2ccf180df.svg",
+    "main.136162eb.css.map": "/ecommerce-design/static/css/main.136162eb.css.map",
+    "main.57c0f113.js.map": "/ecommerce-design/static/js/main.57c0f113.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.136162eb.css",
+    "static/js/main.57c0f113.js"
+  ]
+}
