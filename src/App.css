@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+html{
+  overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6, p{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex{
   display: flex;
-  flex-direction: column;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.start {
+  justify-content: flex-start;
+}
+.product-details{ 
+  flex-wrap: nowrap;
+}
+
+.content{
+  padding: 96px 0 0 120px;
+}
+
+.intro{
+  color: #000;
+  position: relative;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 130%;
+  width: 494px;
+  margin: 0;
+  /* or 41px */
+  display: flex;
+  align-items: flex-end;
+  z-index: 1;
+}
+
+.description{
+  position: relative;
+  z-index: 1;
+  margin-top: 12px;
+  color: #666666;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  width: 432px;
+}
+
+.shop-item{
+  position: relative;
+  z-index: 1;
+  margin: 16px 0 74px 0;
+  width: fit-content;
+  padding-bottom: 5px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 12.8px;
+  line-height: 17px;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-transform: capitalize;
+  border-bottom: 1px solid #000;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 600px) {
+  .content{
+    padding: 230px 0 0 24px;
   }
-  to {
-    transform: rotate(360deg);
+  .intro-img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+  .description{
+    display: none;
+  }
+  .intro, .shop-item{
+    color: #FFFFFF;
+  }
+  .intro{
+    width: 312px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .shop-item{
+    font-weight: 900;
+    font-size: 12.8px;
+    line-height: 17px;
+    border-color: #FFFFFF;
   }
 }

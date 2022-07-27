@@ -1,0 +1,32 @@
+.item-preview-section{
+    position: relative;
+    overflow: auto;
+    top: 0;
+    left: -120px;
+    max-width: 72%;
+    padding-left: 120px;
+}
+
+.item-preview-section::-webkit-scrollbar{
+    display: none;
+}
+
+.right-arrow{
+    position: sticky;
+    right: 64.5px;
+    margin-top: 148.5px;
+    padding: 14px;
+    height: 14px;
+    border: 1px solid #000;
+}
+
+@media screen and (max-width: 361px) {
+    .item-preview-section{
+        max-width: calc(360px - 48px);
+        top: -40px;
+    }
+    .right-arrow{
+        display: none;
+    }
+
+  }
